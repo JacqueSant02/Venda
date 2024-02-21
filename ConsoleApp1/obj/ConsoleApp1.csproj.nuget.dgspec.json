@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "c:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\sjacq\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\sjacq\\OneDrive\\Documentos\\GitHub\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Projeto_02\\Venda\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sjacq\\AppData\\Roaming\\NuGet\\NuGet.Config"
