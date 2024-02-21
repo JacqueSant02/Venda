@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 class AparelhoEletronico
@@ -50,21 +51,21 @@ class Program
         // Criar uma lista de aparelhos eletrônicos disponíveis
         List<AparelhoEletronico> aparelhos = new List<AparelhoEletronico>
         {
-            new AparelhoEletronico("Smartphone Samsung A54 5g 256gb   ",1790.00),
-            new AparelhoEletronico("Tablet S6 lite 4g 64gb            ",1499.99),
-            new AparelhoEletronico("Notebook  asus i7                 ",2499.50),
-            new AparelhoEletronico("Smart TV Lg 4k Samsung            ",3299.98),
-            new AparelhoEletronico("Playstation 5 Digital             ",3199.00),
-            new AparelhoEletronico("Caixa de som JBL                  ",129.99),
-            new AparelhoEletronico("Fone bluetooth REDMI              ",69.79),
-            new AparelhoEletronico("pen drive 32GB SanDisk            ",39.49),
+            new AparelhoEletronico("Smartphone    ",700.00),
+            new AparelhoEletronico("Tablet        ",499.99),
+            new AparelhoEletronico("Notebook      ",1499.50),
+            new AparelhoEletronico("Smart TV      ",1299.98),
+            new AparelhoEletronico("Playstation 5 ",3899.00),
+            new AparelhoEletronico("Caixa de som  ",129.99),
+            new AparelhoEletronico("Fone bluetooth",69.79),
+            new AparelhoEletronico("pen drive 32GB",39.49),
             // Adicione mais aparelhos conforme necessário
         };
 
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
 
         Console.WriteLine("Bem-vindo à loja STARS eletrônicos!");
-        Console.WriteLine("Selecione um item desejado:\n");
+        Console.WriteLine("Selecione um aparelho para comprar ou (digite '0' para finalizar ou Cancelar a Compra):\n");
 
         // Mostrar os aparelhos disponíveis
         for (int i = 0; i < aparelhos.Count; i++)
@@ -76,7 +77,7 @@ class Program
         do
         {
             // Pedir ao usuário para selecionar um aparelho
-            Console.Write("\nDigite o número do item desejado ou 0 para finalizar: ");
+            Console.Write("\nDigite o número do aparelho desejado ou (0 para finalizar a Compra): ");
             while (!int.TryParse(Console.ReadLine(), out escolha) || escolha < 0 || escolha > aparelhos.Count)
             {
                 Console.Write("Escolha inválida. Digite novamente seu BURRO: ");
@@ -106,14 +107,6 @@ class Program
         {
             Console.WriteLine($"{aparelho.Nome} - Quantidade: {quantidade} - Preço unitário: R$ {aparelho.Preco:F2}");
         }
-
-
         Console.WriteLine($"Total: R$ {carrinho.CalcularTotal():F2}");
-
-        Console.WriteLine("\nA STARS Eletronicos Agradece pela sua preferencia,VOLTE SEMPRE!!");
-        Console.WriteLine("\nContate nossos vendedores pelo ZAP:");
-        Console.WriteLine("\n*Jaqueline (31) 9123456789");
-        Console.WriteLine("\n*Paulo     (31) 9789456123");
-        Console.WriteLine("\n*Israel    (31) 9012378945"); 
     }
 }
